@@ -200,6 +200,10 @@ p.view{
     color: rgb(5, 124, 221);
 }
 
+p.view:hover{
+    background-color: white;
+}    
+
 .view:hover{
     background-color: rgb(5, 124, 221);
     color: white;
