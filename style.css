@@ -205,7 +205,7 @@ p.view:hover{
     color: rgb(5, 124, 221);
 }    
 
-.view:hover{
+button.view:hover{
     background-color: rgb(5, 124, 221);
     color: white;
 }
