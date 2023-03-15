@@ -305,9 +305,3 @@ footer{
     width: inherit;
     background-color: rgb(233, 233, 233);
 }
-
-@media only screen and (max-width: 600px) {
-    body{
-        background-color: aqua;
-    }
-  }
