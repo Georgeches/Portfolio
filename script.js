@@ -22,7 +22,7 @@ $(document).ready(function(){
   });
 
 function emailSubmit() {
-    senderName = document.getElementById('name')
+    senderName = document.getElementById('name').value
     alert('Thank you ' + senderName + ' for reaching out.')
 }
 
