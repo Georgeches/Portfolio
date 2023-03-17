@@ -177,7 +177,7 @@ main{
 
 .service, .project{
     height: 400px;
-    width: 500px;
+    width: 400px;
     overflow: hidden;
     background: white;
     box-shadow: 5px 5px 5px  rgba(117, 117, 117, 0.637);
@@ -236,7 +236,7 @@ p.view{
 
 .client{
     height: 200px;
-    width: 400px;
+    width: 300px;
 }
 
 .email{
