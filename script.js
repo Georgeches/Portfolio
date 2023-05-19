@@ -1,30 +1,20 @@
 $(document).ready(function(){
-  if (screen.width < 600){
-      $('.navbar-list').hide()
-      $('.details').hide()
-      $('.cross').hide()
+  $('.read-more').hide()
+  $('.less').hide()
+  if(screen.width<600){
+    $('.navbar-list').hide()
+    $('.cross').hide()
+    
+    $('.read-more').toggle()
+    $('.read-more').click(function(){
+      $('.about-body').css('height', 'auto')
+      $('.read-more').hide()
+      $('.less').toggle()
+    })
+    $('.less').click(function(){
+      $('.about-body').css('height', '300px')
+    })
   }
-  else{
-    $('.view').hide()
-    $(".service").hover(function(){
-      $(this).find('.view').toggle()
-      $(this).find('.details').hide()
-      }, 
-      function(){
-        $(this).find('.view').hide()
-        $(this).find('.details').toggle()
-    });
-
-    $(".project").hover(function(){
-        $(this).find('.view').toggle()
-        $(this).find('.details').hide()
-        }, 
-        function(){
-          $(this).find('.view').hide()
-          $(this).find('.details').toggle()
-      });
-  }
-
   $('.bars').click(function(){
       $('.navbar-list').toggle()
       $('.cross').toggle()
