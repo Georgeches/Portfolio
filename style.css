@@ -210,7 +210,7 @@ main{
     background-color: aliceblue;
     border-radius: 100%;
     text-align: center;
-    filter: brightness(60%);
+    filter: brightness(80%);
     border: 4px solid rgb(4, 190, 112);
 }
 
