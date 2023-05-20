@@ -2,9 +2,6 @@ $(document).ready(function(){
   $('.read-more').hide()
   $('.less').hide()
   if(screen.width<600){
-    $('.navbar-list').hide()
-    $('.cross').hide()
-    
     $('.read-more').toggle()
     $('.read-more').click(function(){
       $('.about-body').css('height', 'auto')
@@ -15,6 +12,12 @@ $(document).ready(function(){
       $('.about-body').css('height', '300px')
     })
   }
+
+  if(screen.width<1000){
+    $('.navbar-list').hide()
+    $('.cross').hide()
+  }
+    
   $('.bars').click(function(){
       $('.navbar-list').toggle()
       $('.cross').toggle()
