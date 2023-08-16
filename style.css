@@ -236,11 +236,11 @@ main{
     height: 160px;
     width: 155px;
     overflow: hidden;
-    background-color: aliceblue;
+    background-color: transparent;
     border-radius: 100%;
     text-align: center;
     filter: brightness(80%);
-    border: 4px solid rgb(4, 190, 112);
+    border: none;
 }
 
 .about-header img{
@@ -305,6 +305,12 @@ main{
     width: 60%;
     background-color: white;
     margin-left: 20px;
+}
+
+.experience-five{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(5, 124, 221);
 }
 
 .experience-four{
